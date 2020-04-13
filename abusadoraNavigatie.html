@@ -10,7 +10,6 @@
 <title></title>
 <style = "tekst/css">
 
-<!--
 
 body	{background-color : #FF00FF;
 	  color : #000000;
@@ -26,8 +25,11 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 200px;
+  width: 25%;
   background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
 }
 
 li a {
@@ -37,15 +39,18 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color on hover */
-li a:hover {
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+li a:hover:not(.active) {
   background-color: #555;
   color: white;
 }
 	
 p	{text-align : left;
 	}
--->
 
 </style>
 </head>
