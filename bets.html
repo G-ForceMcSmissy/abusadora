@@ -46,8 +46,9 @@
       </nav>
 
       <div class="container-fluid">
-    <form>
-        <div class="form-group">
+     <form>
+		<div class="form-row">
+		<div class="form-group">
             <label for="nameInput">Naam</label>
             <input type="text" class="form-control" id="nameInput" placeholder="Voer je naam in">
           </div>
@@ -55,7 +56,20 @@
           <label for="exampleInputEmail1">E-mailadres</label>
           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Voer je e-mail in">
           <small id="emailHelp" class="form-text text-muted">We gaan je e-mail nooit delen met iemand anders.</small>
-        </div>
+		</div>
+		</div>
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Mijn Winnaar!</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+			  <option>Selecteer je winnaar</option>
+              <option>Sander Claes</option>
+              <option>Michiel Jordens</option>
+              <option>Bart Gruyters</option>
+              <option>Gerland Buckens</option>
+              <option>Michaël Awouters</option>
+              <option>Gregory Vandersmissen</option>
+            </select>
+          </div>
         <button type="submit" class="btn btn-primary">Bevestigen</button>
       </form>
       </div>
